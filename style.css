@@ -1,0 +1,56 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul li {
+    text-decoration: underline;
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+}
+
+main section {
+    display: flex;
+}
+
+.our-mission {
+    margin: 0 auto;
+    padding-top: 69px;
+    max-width: 1200px;
+    max-height: 700px;
+}
+
+.div-our-mission {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    right: 1200px;
+    top: 250px;
+}
