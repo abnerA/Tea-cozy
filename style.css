@@ -5,21 +5,24 @@ body {
     background-color: black;
     opacity: 0.9;
     margin: 0;
+    max-width: 1400px;
 }
 
 .header {
     background-color: black;
     height: 69px;
-    width: 100%;
+    width: 1400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
     position: fixed;
+    z-index: 2;
 }
 
 .logo {
     margin-left: 10px;
+    height: 50px;
 }
 
 .logo img {
@@ -33,20 +36,42 @@ body {
     padding: 10px;
 }
 
+main {
+    background-color: green;
+    padding-top: 70px;
+    height: 1000px;
+}
+
 main section {
     display: flex;
 }
 
 .our-mission {
     margin: 0 auto;
-    padding-top: 69px;
     max-width: 1200px;
     max-height: 700px;
-    display: flex;
+    display: block;
 }
 
 .div-our-mission {
-    background-color: green;
-    height: 200px;
-    width: 100%;
+    height: 700px;
+}
+
+.div-our-mission img {
+    width: 1200px;
+    height: 700px;
+}
+
+.div-our-mission-text {
+    background-color: black;
+    text-align: center;
+    margin-top: -400px;
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.div-our-mission-text h2 {
+    margin: 0;
 }
