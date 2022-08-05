@@ -9,6 +9,9 @@ body {
   color: seashell;
   font-size: 22px;
   width: 100%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.9;
 }
 
 /* CSS Header */
@@ -49,31 +52,155 @@ body {
   text-decoration: none;
 }
 
-/* CSS Main */
+/* Section Our Mission */
 
 .main {
+  margin: 0 auto;
   padding-top: 70px;
+  max-width: 100%;
+  height: auto;
 }
+
 
 .our-mission {
   margin: 0 auto;
   max-width: 1200px;
-  max-height: 700px;
+  max-height: auto;
   display: block;
 }
 
 .main .our-mission .div-our-mission {
   background-image: url(./img/img-mission-background.jpg);
   background-position: 50%;
-  width: 1200px;
+  max-width: 1200px;
   height: 700px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
 .our-mission-title {
   background-color: black;
   width: 100%;
-  height: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our-mission-title h2 {
+  width: 100%;
   text-align: center;
+}
+
+.our-mission-title p {
+  text-align: center;
+}
+
+/* Section Tea of Month */
+
+.tea-of-month {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.div-tea-of-month {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.title-month {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tea-of-month .div-tea-of-month .img-tea {
+  max-width: 300px;
+  max-height: 200px;
+  margin: 15px;
+  margin-bottom: 50px;
+}
+
+.tea-of-month .div-tea-of-month .img-tea p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.tea-of-month .div-tea-of-month .img-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Loactions */
+
+.locations {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.div-locations {
+  background-image: url(./img/img-locations-background.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.div-locations h2 {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.div-locations .cards-locations {
+  background-color: black;
+  min-width: 300px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-locations .cards-locations h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.div-locations .cards-locations p {
+  line-height: 3.2;
+}
+
+/* Footer */
+
+.div-footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  text-align: left;
+  margin: 20px 20px;
+  font-weight: bold;
 }
